@@ -1,3 +1,5 @@
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/necrodevz/dkblake.svg?columns=all)](http://waffle.io/necrodevz/dkblake)
+
 # README
 
 This README would normally document whatever steps are necessary to get the
