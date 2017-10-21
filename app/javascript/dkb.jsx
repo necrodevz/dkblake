@@ -9,7 +9,7 @@ import Profile from './pages/Profile'
 // main function
 const DKB = () => (
         <div>
-            <Route path='/' component={Home} />
+            <Route exact path='/' component={Home} />
             <Route path='/profile' component={Profile} />
         </div>
 )
