@@ -1,8 +1,10 @@
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
+
 //import {ApolloProvider, ApolloClient} from 'react-apollo'
 
-import Home from '../containers/Home'
+import DKB from '../dkb'
 
 class App extends Component {
     
@@ -10,7 +12,9 @@ class App extends Component {
     render(){
         
         return(
-            <Home />   
+            <BrowserRouter>
+                <DKB />
+            </BrowserRouter>
         )
     }
 }
