@@ -114,7 +114,7 @@ export default class Home extends Component {
                 <Header as='h3' style={{ fontSize: '2em' }}>"I shouldn't have gone with their competitor."</Header>
                 <p style={{ fontSize: '1.33em' }}>
                   <Image avatar src='/assets/images/avatar/large/nan.jpg' />
-                  <b>Nan</b> Chief Fun Officer Acme Toys
+                  <b>Devz</b> Chief Fun Officer Acme Toys
                 </p>
               </Grid.Column>
             </Grid.Row>
