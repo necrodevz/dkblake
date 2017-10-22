@@ -13,7 +13,7 @@ import {
   Segment,
   Visibility,
 } from 'semantic-ui-react'
-import FixedMenu from './shared/FixedMenu'
+import FixedMenu from '../containers/FixedMenu'
 
 export default class Home extends Component {
   state = {}

@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Mes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Title</th>
+      <th>About me</th>
+      <th>Projects</th>
+      <th>Skills</th>
+      <th>Blogs</th>
+      <th>Meetings</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @mes.each do |me| %>
+      <tr>
+        <td><%= me.name %></td>
+        <td><%= me.title %></td>
+        <td><%= me.about_me %></td>
+        
+        <td><%= link_to 'Show', me %></td>
+        <td><%= link_to 'Edit', edit_me_path(me) %></td>
+        <td><%= link_to 'Destroy', me, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Me', new_me_path %>

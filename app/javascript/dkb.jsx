@@ -4,12 +4,13 @@ import {Route} from 'react-router-dom'
 
 // import custom modules
 import Home from './pages/Home'
-
+import ProfileContainer from './containers/ProfileContainer'
 
 // main function
 const DKB = () => (
         <div>
-            <Route path='/' component={Home} />
+            <Route exact path='/' component={Home} />
+            <Route path='/profile' component={ProfileContainer} />
         </div>
 )
 

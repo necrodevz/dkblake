@@ -1,0 +1,2 @@
+class Me < ApplicationRecord
+end
